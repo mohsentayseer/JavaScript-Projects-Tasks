@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.home-section {
+    background-image: url(./assets/images/bg.jpg.webp);
+    height: 948px;
+}
+
+.home-container {
+    width: 90%;
+    margin: auto;
+}
+
+.nav-image {
+    background-image: url(./assets/images/logo.png.webp);
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+
+}
+
+.nav-container {
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.ul li {
+    flex: 1;
+}
+
+ul li a {
+    display: block;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.login-btn {
+    background-color: #d82a4e;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    width: 196px;
+    padding: 15px 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.desc {
+    padding-top: 340px;
+    margin-bottom: 105px;
+    text-align: center;
+}
+
+.desc-header {
+    color: white;
+    font-size: 43px;
+    margin-bottom: 20px;
+}
+
+.desc-para {
+    color: white;
+    font-size: 14.1px;
+}
+
+.signup-container {
+    text-align: center;
+}
+
+.email,
+.name {
+    height: 53px;
+    width: 36.4%;
+    padding: 0 30px;
+    margin-right: 22px;
+    border: none;
+    font-size: 14px;
+}
+
+.email:focus,
+.name:focus {
+    outline: none;
+}
+
+.signup-btn {
+    background-color: #d82a4e;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    width: 196px;
+    padding: 15px 10px;
+    cursor: pointer;
+    border: none;
+}

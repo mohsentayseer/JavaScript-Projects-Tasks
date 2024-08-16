@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Information</title>
+    <link rel="stylesheet" href="css2.css" />
+  </head>
+  <body>
+    <div class="card">
+      <h1>User Information</h1>
+      <div class="user-info">
+        <div>
+          <p><strong>Hello</strong> <span id="user-name"></span></p>
+        </div>
+        <p>
+          <strong>Address:</strong>
+          <span id="user-address"></span>
+        </p>
+        <p><strong>Gender:</strong> <span id="user-gender"></span></p>
+        <p>
+          <strong>Email:</strong>
+          <span id="user-email"></span>
+        </p>
+        <p><strong>Mobile:</strong> <span id="user-mobile"></span></p>
+      </div>
+    </div>
+
+    <script>
+      var username = document.querySelector("#user-name");
+      var gender = document.querySelector("#user-gender");
+      var mobile = document.querySelector("#user-mobile");
+      var email = document.querySelector("#user-email");
+      var address = document.querySelector("#user-address");
+      var params = new URLSearchParams(window.location.search);
+      const _name = params.get("name");
+      const _email = params.get("email");
+      const _mobile = params.get("mobile");
+      const _gender = params.get("gender");
+      const _address = params.get("address");
+      username.textContent = _name;
+      address.textContent = _address;
+      gender.textContent = _gender;
+      email.textContent = _email;
+      mobile.textContent = _mobile;
+    </script>
+  </body>
+</html>

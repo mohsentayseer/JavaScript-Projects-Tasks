@@ -1,0 +1,145 @@
+.featuredCards-section {
+    padding-bottom: 80px;
+}
+
+.featuredCards-container {
+    width: 90%;
+    margin: auto;
+}
+
+.collectedcards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.singleCard-container {
+    flex: 0 0 23%;
+    margin-bottom: 34px;
+    background-color: #edf4f6;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.singleCard-img1 {
+    flex: 1;
+    background-image: url(./assets/images/11.jpg\ \(1\).webp);
+    height: 270px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.singleCard-desc1 {
+    padding: 20px;
+}
+
+.singleCard-img2 {
+    flex: 1;
+    background-image: url(./assets/images/22.jpg\ \(1\).webp);
+    height: 270px;
+    background-size: cover;
+    background-position: center;
+}
+
+.singleCard-img3 {
+    flex: 1;
+    background-image: url(./assets/images/33.jpg\ \(1\).webp);
+    height: 270px;
+    background-size: cover;
+    background-position: center;
+}
+
+.singleCard-img4 {
+    flex: 1;
+    background-image: url(./assets/images/44.jpg\ \(1\).webp);
+    height: 270px;
+    background-size: cover;
+    background-position: center;
+}
+
+.singleCard-img5 {
+    flex: 1;
+    background-image: url(./assets/images/55.jpg\ \(1\).webp);
+    height: 270px;
+    background-size: cover;
+    background-position: center;
+}
+
+.singleCard-img6 {
+    flex: 1;
+    background-image: url(./assets/images/66.jpg\ \(1\).webp);
+    height: 270px;
+    background-size: cover;
+    background-position: center;
+}
+
+.singleCard-img7 {
+    flex: 1;
+    background-image: url(./assets/images/77.jpg);
+    height: 270px;
+    background-size: cover;
+    background-position: center;
+}
+
+.singleCard-img8 {
+    flex: 1;
+    background-image: url(./assets/images/88.jpg);
+    height: 270px;
+    background-size: cover;
+    background-position: center;
+}
+
+.singleCard-title {
+    margin-bottom: 5px;
+    color: #474747;
+}
+
+.singleCard-para {
+    font-size: 14.1px;
+    color: #878787;
+    line-height: 2.2;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+.singleCard-courses {
+    font-size: 18px;
+    font-weight: 600;
+    color: #d82a4e;
+}
+
+.singleCard-bottom {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #edf4f6;
+    border-top: 1px solid #ccc;
+}
+
+.profile-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.developerName {
+    color: #474747
+}
+
+.role {
+    color: #d82a4e;
+    padding-left: 5px;
+}
+.price-tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #d82a4e;
+    color: #ffffff;
+    padding: 15px 15px;
+    font-size: 14px;
+    font-weight: bold;
+}

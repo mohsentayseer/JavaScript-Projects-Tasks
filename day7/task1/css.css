@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(182, 227, 254);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    padding: 100px;
+}
+
+.inputName,
+.inputAge,
+.inputEmail {
+    margin: 20px;
+    border: none;
+    border-bottom: 2px solid rgb(20, 160, 247);
+    height: 30px;
+    padding-left: 10px;
+}
+
+.submit {
+    margin: 20px;
+    width: 80px;
+    background-color: green;
+    color: white;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+}
+
+.reset {
+    margin: 20px;
+    width: 80px;
+    background-color: darkorange;
+    color: black;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+}
+
+
+
+
+table {
+    width: 70%;
+    margin: auto;
+    font-size: 18px;
+    text-align: left;
+    display: none;
+}
+
+table th,
+table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+table tr {
+    background-color: #f5f5f5;
+}

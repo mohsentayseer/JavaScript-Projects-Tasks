@@ -1,0 +1,59 @@
+/* 1. Select p elements and make them red */
+
+p {
+    color: red;
+}
+
+
+/* 2. Select p and div elements */
+
+/* p, div {
+    color:aqua
+} */
+
+
+/* 3. Select p with class mainClass direct child for div with id myDiv and make it styled */
+
+/* div#mydiv > p.mainClass {
+    background-color: yellow;
+} */
+
+
+/* 4. Select all p inside div and style them */
+
+/* div p {
+    background-color: blue;
+} */
+
+
+/* 5. Select input with type text element with class myClass */
+
+input[type="text"].myClass {
+    background-color: green;
+}
+
+
+/* 6. Select span elements after div */
+
+/* div ~ span {
+    color: brown;
+} */
+
+div + span {
+    color: brown;
+} 
+
+
+/* 7. Select p with class myClass */
+
+/* p.myClass {
+    color: purple;
+} */
+
+
+
+/* 8. Select div with id myDiv */
+
+/* #mydiv {
+    background-color: gray;
+} */

@@ -1,0 +1,37 @@
+.featured-section {
+    padding-top: 115px;
+    padding-bottom: 115px;
+}
+
+.featured-container {
+    padding-bottom: 50px;
+}
+
+.featured-header {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #474747;
+}
+
+.featured-para {
+    font-size: 14.1px;
+    color: #878787;
+    line-height: 2.2;
+}
+
+.filter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.filter-ele {
+    font-size: 18px;
+    font-weight: 600;
+    color: #474747;
+    padding: 12px 10px 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}

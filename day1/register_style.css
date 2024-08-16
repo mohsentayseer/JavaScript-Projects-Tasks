@@ -1,0 +1,40 @@
+.register-section {
+    padding-bottom: 115px;
+}
+
+.register-container {
+    padding-bottom: 50px;
+    text-align: center;
+    padding: 30px;
+
+}
+
+.register-header {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #474747;
+}
+
+.register-para {
+    font-size: 14.1px;
+    color: #878787;
+    line-height: 2.2;
+}
+
+.register-btn {
+    background-color: #d82a4e;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    width: 196px;
+    padding: 15px 10px;
+    cursor: pointer;
+    border: none;
+    margin: 50px;
+}
+.footer-line{
+    margin: 20px;
+    border-top: 3px solid #d82a4e;
+}
